@@ -24,7 +24,14 @@ Questions = [
 	"Would you relocate for love?",
 	"Did you ever write a journal?",
 	"What are you most thankful for?",
+	"Would you like to be famous? In what way?",
+	"Before making a telephone call, do you ever rehearse what you are going to say?",
 	"Do you believe in second chances?",
+	"What would be a perfect day for you?",
+	"Do you have a secret hunch about how you will die?",
+	"Get a cronometer. Tell your life story in 4 minutes. Go!",
+	"What do you value most in a friendship?",
+	"What is your most treasured memory?",
 	"What’s the one thing that people always misunderstand about you?",
 	"What is your idea of a perfect vacation?",
 	"What did your past relationship teach you?",
@@ -182,7 +189,8 @@ Questions = [
 	"What’s the best advice anyone ever gave you?",
 	"What were you like as a kid?",
 	"What does a typical day look like for you?",
-	"Among your friends, what's the thing you are known for?"
+	"Among your friends, what's the thing you are known for?",
+	"What is something you wish you could share with someone?"
 ]
 
 RelationshipQuestions = [
@@ -202,7 +210,11 @@ RelationshipQuestions = [
 	"What's a secret of yours? (Don't tell anyone else, promise it!)",
 	"What does wife / husband material mean to you?",
 	"What's the most romantic thing you've ever done?",
-	"If you were the opposite sex for one day, what would you do?"
+	"If you were the opposite sex for one day, what would you do?",
+	"What roles do love and affection play in your life?",
+	"When did you last cry in front of another person?",
+	"What's one thing you like about eachother?",
+	"What is too serious to be joked about?"
 ]
 
 SexQuestions = [

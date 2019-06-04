@@ -36,13 +36,16 @@ function go(){
 	timesClicked++
 	if(timesClicked == 3){
 		Questions = [...Questions, ...RelationshipQuestions]
+		shuffleArray(Questions)
 	} else if(timesClicked == 7){
 		Questions = [...Questions, ...SexQuestions]
+		shuffleArray(Questions)
 	}
-	get("Question").innerHTML = randomOfArray(Questions)
+	get("Question").innerHTML = Questions.pop()
 }
 
-get("Question").innerHTML = randomOfArray(Questions)
+shuffleArray(Questions)
+get("Question").innerHTML = Questions.pop()
 
 
 

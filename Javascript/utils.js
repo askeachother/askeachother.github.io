@@ -15,7 +15,16 @@
 	}
 	
 	var objectToURL = objectToURLParameters
-		
+	
+	function shuffleArray(ar){
+		for(let i = 0; i<ar.length; i++){
+			let aux = ar[i]
+			let swapIndex = randomInt(0, ar.length)
+			ar[i] = ar[swapIndex]
+			ar[swapIndex] = aux
+		}
+	}
+	
 	function submitForm(_url, _data, type, callback){
 		if(type == null){
 			type = 'get'
