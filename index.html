@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src = "Javascript/utils.js"></script>
+	<script src = "Javascript/scripts.js"></script>
+	<script src = "Javascript/QuestionsDatabase.js"></script>
+	<script src = "Javascript/Queue.src.js"></script>
+	<script src = "Javascript/jquery-3.3.1.min.js"></script>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+<nav>
+	<div id = "Navigation">
+		<div class = "NavLink"  onclick="window.location.href = 'index.html'" id = "NavHome">
+			<a href = "index.html">Get To Know Me</a>
+		</div>
+		<div class = "NavLink" onclick="window.location.href = 'https://github.com/whoamigame/whoamigame.github.io'">
+			<a href = "https://github.com/whoamigame/whoamigame.github.io">Source Code</a>
+		</div>
+		<div class = "NavLink" disabled>
+			<a href = "index.html">How To Play</a>
+		</div>
+	</div>
+</nav>
+<div id = "Window">
+	<h3 id="Question">Test</h3>
+	<button onclick="go()">Another</button>
+</div>
+</body>
+<script>
+
+var timesClicked = 1
+
+function go(){
+	timesClicked++
+	if(timesClicked == 3){
+		Questions = [...Questions, ...RelationshipQuestions]
+	} else if(timesClicked == 7){
+		Questions = [...Questions, ...SexQuestions]
+	}
+	get("Question").innerHTML = randomOfArray(Questions)
+}
+
+get("Question").innerHTML = randomOfArray(Questions)
+
+
+
+</script>
+</html>

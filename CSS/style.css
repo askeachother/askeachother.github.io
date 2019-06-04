@@ -1,0 +1,75 @@
+	body{
+		height: 100vh;
+		width: 100%;
+		padding: 0px;
+		margin: 0;}
+		
+	@font-face{
+		font-family: Title;
+		src: url(Nunito-Bold.ttf);
+	}
+	
+	#Navigation{
+		width: 100%;
+		display: flex;
+		background-color: #333333;
+	}
+	
+	.NavLink{
+		padding: 15px;
+		margin-right: 10px;
+		float: left;
+		cursor: pointer;
+	}
+	
+	.NavLink:hover{
+		background-color: #555555;
+	}
+	
+	.NavLink a{
+		text-decoration: none;
+		font-family: Title;
+		color: white;
+		font-size: 1.5em;
+	}
+	#NavHome{
+		padding-right: 25px;
+		padding-left: 35px;
+	}
+	#NavHome a{
+		color: #FF8888;
+	}
+	
+	#Window{
+		width: 50%;
+		padding: 20px;
+		margin: auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	
+	h3{
+		font-size: 3em;
+		font-family: Title;
+		text-align: center;
+		
+	}
+
+	button{
+		padding: 10px;
+		font-size: 3em;
+		border: none;
+		background-color: #FF9999;
+		color: black;
+		border-radius: 5px;
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	
