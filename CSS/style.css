@@ -9,10 +9,21 @@
 		src: url(Nunito-Bold.ttf);
 	}
 	
-	#Navigation{
+	#NavigationWrapper{
 		width: 100%;
 		display: flex;
 		background-color: #333333;
+	}
+	
+	#Languages{
+		flex: 1;
+		display: flex;
+		flex-direction: row-reverse;
+	}
+	
+	#Navigation{
+		flex: 2;
+		display: flex;
 	}
 	
 	.NavLink{
@@ -69,8 +80,10 @@
 		border-radius: 5px;
 	}
 
-	
-	
+	a span{
+		margin-left: -6px;
+		padding: 0px;
+	}
 	
 	
 	
